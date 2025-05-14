@@ -1,0 +1,10 @@
+'''anshu moved to a new house in vijayawad from hyderabad. she was arranging her
+things in the selves provided. she has a box that has a mass of 12.786 pounds. she lifted
+the box and placed it on shelf. if the box gains 125j of potential energy,
+how high is the shelf? (HINT: Acceleration due to gravity g=9.8 m/sec2 PE=mass*g*height and HINT: 1kg=2.2046 pounds)'''
+
+box_mass=12.768*2.2046
+potential_energy=125
+gravity=9.8
+print(f'The box mass = {box_mass}Kgs\nThe Potetial_Energe = {potential_energy}J\nThe Acceleration due to gravity = {9.8}m/sec^2 ')
+print(f'the height of shelf={(potential_energy/(gravity*box_mass))*100}Cms')
