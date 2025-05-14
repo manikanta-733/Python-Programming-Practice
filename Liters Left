@@ -1,0 +1,11 @@
+'''krishna's livelihood depends on selling milk.
+every day he Brings x gallons of milk from his village
+to vijayawada. In Vijayawada he pours 1 lit of milk to each of 36 housesholds. find the
+number of liters of milk left with him? (Hint: 1 gallon = 3.785 liters).
+assume that krishna has adeguate amount of milk.'''
+
+gallons=int(input("no.of cans: "))
+Milk=gallons*3.75
+houses=36
+liter_house=1
+print(f'He brings {gallons*3.785}Liters of Milk to Vijayawada \nHe distribute the milk for {houses}houses\n For each House he pore {liter_house}Lit of Milk\n The Remaining Milk={Milk-(houses*liter_house)}')
