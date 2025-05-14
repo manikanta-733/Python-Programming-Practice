@@ -1,0 +1,12 @@
+'''manish works in a supermarket in billing. rahul bought 10 pens and 5 chocolates. each pen costs 1.5rs and each chocolate
+costs in 10rs and he gave manish 100rs to pay bill. find the total bill amomunt and remaining change.'''
+
+pens=10
+chocolates=5
+pen_cost=1.5
+chocolate_cost=10
+total=pens*pen_cost+chocolates*chocolate_cost
+money=100
+print(f'rahul puchased {pens} each pen cost = {pen_cost}rs and {chocolates}chocolates each chocolate cost ={chocolate_cost}rs')
+print(f' manhish gave {money} to pay bill ')
+print(f'total bill={total} and remaining money={money-total}')
