@@ -1,0 +1,10 @@
+'''A Utopian Tree Sapling with a height of 1 inch is plated on day1. The tree grows 2 inches every day.Find the height of the tree in centimeters on nth day. (HINT: 1 inch= 2.54 cms)
+
+input:n day
+output:height in cms'''
+
+days=int(input("enter no.of days: "))
+tree_height=1*2.5
+day_height=days*5+1*2.5
+print(f'Utopian Tree Height initialy = {1*2.5}cms\nThe tree grows every day = {2*2.5}cms\n The Height of Tree for {days} days = {day_height}cms')
+
