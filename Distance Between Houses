@@ -1,0 +1,12 @@
+'''Google is recruting software engineers to calculate distance between the coordinates of two
+buildings in google maps. some buildings do not have coordinates but have distances to nearest buildings. if the coordinates of two buildings - A is (1,1),B is (2,3) and Building C is 2kms away from Building B.
+find the length of the path from A to C via B.'''
+
+import math
+a=[1,1]
+b=[2,3]
+c=2
+distance_a_b =math.sqrt((b[0]-a[0])**2+(b[1]-a[1])**2)
+distance_b_c=2
+distance_a_c=math.sqrt((distance_a_b)**2+(distance_b_c)**2)
+print(f'The Distance Betwwen From A to B is {distance_a_c}')
