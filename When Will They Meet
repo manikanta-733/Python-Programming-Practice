@@ -1,0 +1,5 @@
+'''1)ram and hanuman measure and find that their houses are 50 miles apart. if they agree to meet at the midpoint between their two houses,
+how far will each of them travel in kilometers?(HINT: 1mile = 1.6 kms)'''
+distance =50*2.5
+mid_point=distance/2
+print(f'ram and hanuman houses are far with a distance of {distance}kms \nthey meet at a mid point {distance-mid_point}in kms')
