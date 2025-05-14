@@ -1,0 +1,9 @@
+'''mamatha have 5 subjects, she has prepared really well the annual exams and got very good marks
+mamtha is very curious to find her total percentage and display it in .4 precision.
+'''
+
+marks = [95, 88, 92, 85, 90]  
+total_marks = sum(marks)
+maximum_marks = 5 * 100
+percentage = (total_marks / maximum_marks) * 100
+print(f'Mamatha Total Percentage: {percentage:.4f}')
