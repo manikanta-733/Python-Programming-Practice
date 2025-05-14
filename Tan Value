@@ -1,0 +1,13 @@
+'''mani is learning about the python library math.h functions.
+he found that there is tan() function in math header file.
+he wants to calculate tan45o, but he finds that tan funtion accepts on radians.help
+mani to convert 45o to radians and calculate the value of tan45o.
+
+input:45
+output:tan value of 45'''
+
+from math import *
+degree=int(input("enter degree"))
+radian=radians(degree)
+tan_value= tan(radian)
+print(tan_value)
