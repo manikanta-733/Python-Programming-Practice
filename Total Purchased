@@ -1,0 +1,16 @@
+'''2.)rameshwar goes to market for buying some fruits and vegetables. he is having a currency of 500rs with him for marteking.
+from a shop he purshases 2.0kg apple priced 50rs per kg, 1.5kg mango priced 35rs per kag, 2.5kg priced 10rs per kg.
+he gives the currency of 500rs to the shopkeeper. Find Out the amount shopkeeper will return to rameshwar and also tell the total item purchased. finally print the bill
+in the following format using format specifiers.'''
+ramesh = 500
+apple=2.0
+rate_of_apple=50
+mango=1.5
+rate_of_mango=35
+grapes=2.5
+rate_of_grapes=10
+returns = ramesh-(apple*rate_of_apple)-(mango*rate_of_mango)-(grapes*rate_of_grapes)
+print(f'ramesh given {ramesh}rs note to the shopekeeper')
+print(f'ramesh purshases {apple}kg of apples prices {rate_of_apple}rs per kg TOTAL={apple*rate_of_apple}rs,\n{mango}kg priced {rate_of_mango}rs per kg  TOTAL={mango*rate_of_mango}rs, \n{grapes}kg prices {rate_of_grapes}rs per kg   TOTAL={grapes*rate_of_grapes}rs') 
+print(f'ramesh purshases total amount of rupees ={(apple*rate_of_apple)+(mango*rate_of_mango)+(grapes*rate_of_grapes)}')
+print(f'Shopkeeper Return money to Ramesh = {returns}')
