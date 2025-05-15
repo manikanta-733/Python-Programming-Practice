@@ -1,0 +1,14 @@
+A painter wants to paint the outer surface of an oil reactangular
+can. the dimensions of the can are 20cm x 15cm x 12cm (l,b,h).
+If 5 paisa is changed to paint per square centimeter,Find the cost of painting in rupees.
+
+
+input:l,b,h
+output:cost
+
+l,b,h =20,15,12
+TSA=2*(l*b+b*h+h*l)
+rate=0.05
+print(f'To Paint the Container is Total Surface Area = {TSA}Sq.cms')
+print(f'For one Cm Charges = {rate}rupees per Cms')
+print(f'The total Cost is = {rate*TSA}Rupees')
