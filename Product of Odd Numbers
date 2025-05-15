@@ -1,0 +1,10 @@
+'''Ravi is very good at conditional statements, but he is feared about the ternary operator due to its unique syntax. 
+//Your task is to help Ravi to solve below question using ternary operator. Given an array of 4 elements. 
+//Find odd numbers in the array and calculate their product.' ' '
+
+arr1=eval(input())
+p=1
+for i in range(len(arr1)):
+    a=arr1[i]if arr1[i]%2!=0 else 1
+    p=p*a
+print(p)
